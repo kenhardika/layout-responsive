@@ -5,29 +5,30 @@
 
 
 main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 
 .container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 16vw));
-    grid-template-rows: repeat(auto-fit, minmax( 150px, 20vh));
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: repeat(auto-fit, 300px);
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    overflow-y: scroll;
 }
 
 .box {
-    width: 50px;
-    height: 100px;
+    height: 300px;
+    width: 200px;
 }
 
 .orange{
-    background-color: orange;
+    background-color:#ef522e;
 }
 
 .green{
-    background-color: seagreen;
+    background-color: #008080;
 }
