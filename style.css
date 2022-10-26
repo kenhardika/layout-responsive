@@ -3,32 +3,19 @@
     box-sizing: border-box;
 }
 
-
 main{
-    width: 100vw;
     height: 100vh;
-}
-
-
-.container{
+    width: 100vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
-    grid-template-rows: repeat(auto-fit, 300px);
-    height: 100%;
-    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 30vw));
     gap: 20px;
     overflow-y: scroll;
 }
 
-.box {
-    height: 300px;
-    width: 200px;
-}
-
-.orange{
+main section{
     background-color:#ef522e;
 }
 
-.green{
+main section:nth-child(2n){
     background-color: #008080;
 }
