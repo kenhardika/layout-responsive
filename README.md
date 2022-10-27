@@ -9,4 +9,6 @@ Auto fit akan mengisi space kosong dengan memaksimalkan semua elemen dengan spac
 
 ## nth:child(2n) 
 Memilih selector dengan nth:child(2n) maka memilih semua elemen dengan kelipatan dua. Maka child element dengan urutan angka genap akan terpilih.
-Pada layout ini selector yang menggunakan nth:child(2n) harus ditulis setelah main section diproses, karena css bekerja top down, yang terakhir diproses akan menjadi nth:child(2n) untuk mengubah bg colornya sesuai dengan request. 
+
+## nth:child(2n+1) 
+Memilih selector dengan nth:child(2n+1) maka memilih semua elemen dengan kelipatan dua plus satu. Maka child element dengan urutan angka ganjil akan terpilih.
