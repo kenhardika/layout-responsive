@@ -12,7 +12,7 @@ main{
     overflow-y: scroll;
 }
 
-main section{
+main section:nth-child(2n+1){
     background-color:#ef522e;
 }
 
